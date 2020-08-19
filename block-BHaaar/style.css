@@ -48,12 +48,13 @@ table {
 }
 
 
-
-
-body {
-    background-color: white;
+section {
+    width: 890px;
+    margin: 0 auto;
+  
 }
-.squarebox {
+
+.box {
     background-color: rgb(130, 49, 211);
     width: 200px;
     height: 200px;
@@ -61,26 +62,45 @@ body {
     margin: 10px;
     padding: 15px;
     display: inline-block;
+    box-sizing: border-box;
 }
 .rectanglebox {
-    background-color: rgb(211, 132, 63);
+
     width: 400px;
-    height: 200px;
-    color: white;
-    margin: 10px;
-    padding: 15px;
-    display: inline-block;
+
 }
-.squarebox2 {
-    background-color: rgb(64, 143, 175);
-    width: 200px;
-    height: 200px;
-    color: white;
-    text-decoration: white;
-    margin: 10px;
-    padding: 15px;
-    display: inline-block;
+.google {
+    background-color: rgb(10, 56, 56);
 }
-section {
-    margin: 30px 400px;
+
+.meterial {
+    background-color: tomato;
+}
+
+.doodle {
+background-color: violet;
+
+}
+.google-plus {
+background-color: rgb(167, 58, 58);
+}
+.glass {
+    background-color: rgb(128, 27, 98);
+}
+
+.Design {
+    background-color: rgb(211, 132, 63);
+}
+
+
+.html {
+    background-color: rgb(65, 225, 73);
+
+}
+
+.css {
+    background-color: rgb(238, 165, 132);
+}
+.javas {
+    background-color: rgb(207, 33, 14);
 }
