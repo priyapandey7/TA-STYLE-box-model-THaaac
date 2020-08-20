@@ -56,14 +56,11 @@ body {
     background-color: rgb(183, 131, 235);
     width: 600px;
     height: 400px;
-    margin: 20px;
+    margin: 40px;
     padding: 20px;
     outline: 10px solid rgb(17, 0, 255);
-    box-shadow: 0 0 0 red;
+    box-shadow: 0 0 0 20px red;
     border: 10px solid black;
     box-sizing: border-box;
 }
 
-.container {
-        margin: 0 auto;
-    }
