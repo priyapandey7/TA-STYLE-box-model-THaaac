@@ -1,31 +1,94 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* content*/
+
+
 header {
     text-align: center;
-    font-size: 34px;
+    font-size: 64px;
    
 }
-section {
+section{
 width: 600px;
 margin: 0 auto;
 }
 
+h1{
+    padding: 20px;
+    margin: 20px;
+}
 h2 {
     font-size: 34px;
     font-family: Arial;
-    padding-left: 50px;
-    margin-left:40px ;
+    padding:10px;
+    text-align: center;
+    margin:10px;
 
 }
 h3 {
     font-size: 24px;
-    padding-left: 50px;
-    margin-left:40px ;
+    padding:10px;
+    margin:10px;
+    text-align: center;
+    margin:10px;
 }
 .box {
     background-color: rgb(214, 194, 127);
     width: 180px;
     height: 180px;
-    margin-left: 90px;
-    padding: 15px;
+    margin: 20px;
+    margin-left: 190px;
+    text-align: center;
+    padding: 25px;
     border: 2px solid black;
     outline: 10px solid rgb(128, 116, 172);
     box-shadow: inset 0 0 0 15px palevioletred;
@@ -39,6 +102,7 @@ span {
     height: 10px;
     border-radius: 50%;
     margin-top: 30px;
+    margin-left: 30px;
     display: inline-block;
 
 }
@@ -60,13 +124,18 @@ p {
     margin: 10px;
 }
 
+hr {
+    width: 50%;
+    margin: 60px 500px 60px;
+  
+
+}
  /*exersise-2*/
 
  /*no border*/
 
 .container {
     width: 600px;
-    padding: 20px;
     display: flex;
     border: 1px solid black;
 }
@@ -83,7 +152,7 @@ p {
 .container1 {
     width: 600px;
     height: 250px;
-    padding: 20px;
+    margin: 20px;
     border: 1px solid black;
 }
 .borderbox {
@@ -102,7 +171,6 @@ p {
 .container2 {
     width: 600px;
     display: flex;
-    padding: 20px;
     border: 1px solid black;
 }
 .borderboxsameline {
