@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*custome style*/
+
+h1 {
+    font-size: 44px;
+    text-align: left;
+    padding: 20px;
+    margin: 30px;
+    color: white;
+    
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+h3 {
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    color:rgb(180, 172, 172);
+
+}
+h4 {
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    color:white;
+
+}
+
+
+#box {
+    background-color: rgb(33, 33, 68);
+    height: 500px;
+    margin: 0px;
+    padding: 20px 100px;
+    text-align: center;
+    font-size: 24px;
+}
+
+hr {
+    text-align: left;
+    margin: 30px;
+    width: 80%;
+}
+
+a {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.containerbox {
+    background-color: rgb(77, 77, 117);
+    height: 600px;
+    padding: 40px 100px;
+    display: inline-block;
+    font-size: 24px;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+p {
+  font-size: 18px;  
+  text-align: left;
+  padding: 20px;
+  color:rgb(180, 172, 172);
+}
+
+.learn {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.containerbox1 {
+    background-color: rgb(47, 47, 107);
+    
+}
+
+.containerbox1 {
+background-color:rgb(63, 63, 128);
+
+}
+footer {
+    background-color: rgb(33, 33, 68);
+    height: 100px;
+    font-size: 20px;
+    padding: 20px 100px;
+    text-align:left;
+}
