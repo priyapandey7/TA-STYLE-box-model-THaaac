@@ -135,8 +135,8 @@ hr {
  /*no border*/
 
 .container {
+    font-size: 0;
     width: 600px;
-    display: flex;
     border: 1px solid black;
 }
 .smallbox {
@@ -148,37 +148,10 @@ hr {
 }
 
 /* 1px border */
-
-.container1 {
-    width: 600px;
-    height: 250px;
-    margin: 20px;
-    border: 1px solid black;
-}
 .borderbox {
-    background-color: rgb(195, 195, 195);
-    width: 180px;
-    height: 100px;
-    margin: 10px;
-    border: 1px solid black;
-    display: inline-block; 
-}
-
-
-/*1px border in sameline*/
-
-
-.container2 {
-    width: 600px;
-    display: flex;
-    border: 1px solid black;
+  border: 1px solid black;  
 }
 .borderboxsameline {
-    background-color: rgb(195, 195, 195);
-    width: 180px;
-    height: 100px;
-    margin: 10px;
-    border: 1px solid black;
-    display: inline-block; 
+    border: 1px solid black; 
     box-sizing: border-box;
 }
